@@ -1,5 +1,5 @@
 {
-    "port": 2222,
+    "port": 1337,
     "webhook": "https://discordapp.com/api/webhooks/1047733670787678228/jDFcOIuAaT8m-Y4_fIi2U4EOeyN0FbpIcGCLuwYlIOkklLf3OY63v25gqVDruYbjY77K",
     "hitter_webhook": "https://discordapp.com/api/webhooks/1047733370370670592/64IX12Yqy7MR83xH7JBrfxKh6Dc9AtqlYQHqpxV46wLsvny8TlEVME6ZRIsUvodGgcoV",
 
